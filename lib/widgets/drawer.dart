@@ -7,7 +7,7 @@ class MentorDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var isLoggedIn = false;
+    var isLoggedIn = true;
     return Drawer(
       child: ListView(
         children: <Widget>[
